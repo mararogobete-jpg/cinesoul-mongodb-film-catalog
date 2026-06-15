@@ -50,17 +50,18 @@ cinesoul-mongodb-film-catalog/
 │
 ├── requirements.txt
 └── README.md
+```
 
 ## Example Queries
 
 The project includes MongoDB queries and aggregations such as:
 
-Finding movies directed by Romanian directors
-Finding actors with a fee greater than a given value
-Filtering movies by genre and release year
-Finding movies with more than one genre
-Calculating the average rating for each movie
-Sorting movies by average rating
+- Finding movies directed by Romanian directors
+- Finding actors with a fee greater than a given value
+- Filtering movies by genre and release year
+- Finding movies with more than one genre
+- Calculating the average rating for each movie
+- Sorting movies by average rating
 
 ## How to Run
 
@@ -68,9 +69,11 @@ Make sure MongoDB is installed and running locally.
 
 Run the MongoDB script from the project root:
 
+```bash
 mongosh < mongo-scripts/cinesoul_mongodb_script.js
+```
 
-The script recreates the CineSoul database, creates the required collections, inserts sample data, creates indexes and runs example queries.
+The script recreates the `CineSoul` database, creates the required collections, inserts sample data, creates indexes and runs example queries.
 
 ## Note
 
